@@ -37,4 +37,33 @@ var estoyfeliz:Boolean = true
 val test:String = "Hola"
         println("Hello, $test!!")
 
+        var edad:Int = 27
+        var numeroFavorito:Int = 25
+        println ("Sumar:")
+        println(numeroFavorito + edad)
+        
+        println ("Restar:")
+        println (numeroFavorito - edad)
+        
+        println ("Multiplicar:")
+        println (numeroFavorito * edad)
+    
+        println ("Dividir:")
+        println (numeroFavorito / edad)
+        
+        println ("Modulo:")
+        println (numeroFavorito % edad)
+        
+        val resultado = numeroFavorito + edad
+        println(resultado)
+        
+        var edadString:String ="27"
+        val resultadoAddWithString = edadString.toInt() + numeroFavorito 
+        val name:String="AlexK"
+        // to made operations with string to int, is necesario make a String to Int
+        // if we add two string and uses + then both will be concatenated
+        println(resultado)
+        
+        println("Hola mi nombre es "+name+" y tengo $edadString años")
+
 }
